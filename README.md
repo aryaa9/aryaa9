@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aryaman Singh</h1>
 <h3 align="center">A passionate Full-stack developer currently based in Waterloo, Canada</h3>
 
-- 🔭 I’m currently working on **StorySphere**
+- 🔭 I’m currently working on **FloodWatch**
 
 - 🌱 I’m currently learning **App Development**
 
