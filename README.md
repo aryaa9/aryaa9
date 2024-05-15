@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Aryaman Singh</h1>
 <h3 align="center">A passionate Full-stack developer currently based in Waterloo, Canada</h3>
 
-- 🔭 I’m currently working on **Geo-Disasters Tracker**
-
 - 🌱 I’m currently learning **App Development**
 
 - 📫 How to reach me **sing0920@mylaurier.ca**
