@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">🌟 You can call me Arya!<br>✨ Currently Working @ Amelia<br>📚 I'm currently learning Machine Learning and Artificial Intelligence<br>🎯 I am an aspiring Software Engineer<br>🎲 Fun fact: I play Football(It's not called Soccer😒) and Basketball.<br>💻 Currently working towards bring AWS Certified in Machine Learning</p>
+<p align="left">🌟 You can call me Arya!<br>✨ Currently Working @ Amelia<br>📚 I'm currently learning Machine Learning and Artificial Intelligence<br>🎯 I am an aspiring Software Engineer<br>🎲 Fun fact: I play Football(It's not called Soccer😒) and Basketball.<br>💻 Currently working towards being AWS Certified in Machine Learning</p>
 
 ###
 
