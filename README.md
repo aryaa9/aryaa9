@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Aryaman Singh and I'm a 3rd year Computer Science at Wilfrid Laurier University.</p>
+<p align="left"> I'm a 3rd year Computer Science at Wilfrid Laurier University.</p>
 
 ###
 
