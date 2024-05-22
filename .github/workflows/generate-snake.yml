@@ -22,8 +22,24 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
+      - name: Move generated files to root
+        run: |
+          mv dist/github-snake.svg .
+          mv dist/github-snake-dark.svg .
+          mv dist/ocean.gif .
+
+      - name: Commit and Push Generated Files
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add github-snake.svg github-snake-dark.svg ocean.gif
+          git commit -m 'Generated snake animation'
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Upload GitHub Snake
         uses: actions/upload-artifact@v2
         with:
           name: github-snake
-          path: dist/
+          path: .
