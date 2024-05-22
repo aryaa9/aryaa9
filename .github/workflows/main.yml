@@ -4,10 +4,10 @@ name: Generate Snake
 # Controls when the action will run. This action runs every 6 hours.
 on:
   schedule:
-      # every 6 hours
+    # every 6 hours
     - cron: "0 */6 * * *"
 
-# This command allows us to run the Action automatically from the Actions tab.
+  # This command allows us to run the Action automatically from the Actions tab.
   workflow_dispatch:
 
 # The sequence of runs in this workflow:
@@ -19,20 +19,19 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      # Checks repo under $GITHUB_WORKSHOP, so your job can access it
       - uses: actions/checkout@v2
 
-    # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
+      # Generates a snake game from a GitHub user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.aryaa9 }}
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
+      # Show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
 
       # Push the changes
@@ -45,7 +44,7 @@ jobs:
 
       - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          # the output branch we mentioned above
+          # The output branch we mentioned above
           target_branch: output
           build_dir: dist
         env:
