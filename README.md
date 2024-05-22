@@ -48,11 +48,6 @@
 
 ###
 
-<h2 align="left">GitHub Contribution Snake</h2>
-
-![GitHub Snake Light](github-snake.svg)
-![GitHub Snake Dark](github-snake-dark.svg)
-![GitHub Snake Ocean](ocean.gif)
 
 ###
 
