@@ -54,3 +54,6 @@
 <p align="left">😄 Thank you for visiting my profile!</p>
 
 ###
+<a href="https://visitcount.itsvg.in">
+  <img src="https://visitcount.itsvg.in/api?id=aryaa9&label=Profile%20Views&icon=6&pretty=true" />
+</a>
