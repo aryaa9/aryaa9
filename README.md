@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">👋 You can call me Arya!<br>✨ Currently Working @ Unify as a Machine Learning Engineer<br>📚 I'm currently learning Machine Learning and Artificial Intelligence<br>🎯 I am an aspiring Software Engineer.<br>💻 Currently working towards being AWS Certified in Machine Learning</p>
+<p align="left">👋 You can call me Arya!<br>📚 I'm currently learning Machine Learning and Artificial Intelligence<br>🎯 I am an aspiring Software Engineer.<br>💻 Currently working towards being AWS Certified in Machine Learning</p>
 
 ###
 
